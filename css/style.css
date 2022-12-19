@@ -24,6 +24,8 @@ body {
 .page{
 	flex: 1 1 auto;
 }
+.page__main {
+}
 /*----Button-----*/
 .button {
 	background: #3D96F4;
@@ -39,6 +41,9 @@ body {
 	transition: background-color 0.3s ease 0s;
 	padding: 19px 29px;
 }
+.button_dark {
+}
+
 @media (max-width: 991.98px){
 	.button{
 		padding: 15px 25px;
@@ -56,6 +61,11 @@ body {
 }
 /*----Header----*/
 .header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(38, 38, 44, 0.186);
 }
 .header__conteiner {
 	display: flex;
@@ -252,3 +262,28 @@ body {
 	}
 }
 
+/*----Main----*/
+
+.main {
+}
+.main__conteiner {
+}
+.main__content {
+}
+.main__title {
+}
+.title {
+}
+.main__text {
+}
+.main__actions {
+}
+.main__button {
+}
+
+.main__images {
+}
+.images-main {
+}
+.images-main__item {
+}
