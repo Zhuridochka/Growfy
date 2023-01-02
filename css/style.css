@@ -32,6 +32,8 @@ body {
 }
 .page__why {
 }
+.page__advantages {
+}
 /*----Button-----*/
 .button {
 	background: #3D96F4;
@@ -683,4 +685,48 @@ body {
 	.header-main__list li:not(:last-child){
 		margin-bottom: 7px;
 	}
+}
+
+.advantages {
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+.advantages__conteiner {
+	display: flex;
+	row-gap: 32px;
+}
+.advantages__items {
+	flex: 1 1 auto;
+	padding-right: 32px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 32px;
+	}
+.advantages__item {
+	padding: 40px;
+	background: rgba(129, 129, 139, 0.1);
+	border-radius: 30px;
+}
+.advantages__data {
+	font-weight: 500;
+	font-size: 51.2px;
+	line-height: 1,19; /* 61/51 */
+	color: #FFFFFF;
+	
+}
+.advantages__data:not(:last-child){
+	margin-bottom: 32px;
+}
+.advantages__text {
+	font-size: 18px;
+	line-height: 1,50; /* 27/18 */
+}
+.advantages__image{
+	align-self: flex-end;
+	flex: 0 0 38%;
+	overflow: hidden;
+}
+.advantages__image img{
+	max-width: 100%;
 }
