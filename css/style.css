@@ -34,6 +34,9 @@ body {
 }
 .page__advantages {
 }
+.page__testimonials {
+}
+
 /*----Button-----*/
 .button {
 	background: #3D96F4;
@@ -325,6 +328,11 @@ body {
 .header-main__title:not(:last-child){
 	margin-bottom: 28px;
 }
+.header-main__body{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	}
 
 .header-main__text {
 	font-size: 16px;
@@ -339,6 +347,7 @@ body {
 	row-gap: 15px;
 }
 .header-main__button {
+	align-self: flex-end;
 }
 @media (max-width: 991.98px){
 	.main {
@@ -752,4 +761,59 @@ body {
 	.advantages__items {
 		grid-template-columns: auto;
 	}
+}
+/*------Testimonials-------*/
+.testimonials {
+}
+.testimonials__conteiner {
+}
+.testimonials__header {
+	
+}
+.header-main {
+}
+.header-main__label {
+}
+.header-main__title {
+}
+
+.header-main__text {
+}
+.header-main__actions {
+}
+.header-main__button {
+}
+.button {
+}
+.testimonials__items {
+	display: flex;
+	flex: 0 1 33.3333%;
+}
+.testimonials__item {
+}
+.item-testimonial {
+}
+.item-testimonial__user {
+}
+.user-testimonial {
+}
+.user-testimonial__avatar {
+}
+.user-testimonial__avatar_1 {
+}
+.user-testimonial__body {
+}
+.user-testimonial__name {
+}
+.user-testimonial__company {
+}
+.item-testimonial__title {
+}
+.item-testimonial__text {
+}
+.item-testimonial__rating {
+}
+.user-testimonial__avatar_2 {
+}
+.user-testimonial__avatar_3 {
 }
